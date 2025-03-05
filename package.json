@@ -1,0 +1,21 @@
+{
+  "name": "studio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dong7314/Studio.git",
+  "author": "DongYeopL <eaea7314@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@4.7.0",
+  "workspaces": [
+    "apps/dashboard"
+  ],
+  "scripts": {
+    "dashboard": "yarn workspace @studio/dashboard"
+  },
+  "devDependencies": {
+    "@remix-run/node": "^2.16.0",
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}
