@@ -1,6 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
 import Introduce from "../components/introduce/Introduce";
-import ThemeToggleButton from "~/components/theme/ThemeToggleButton";
 
 export const meta: MetaFunction = () => {
   return [
