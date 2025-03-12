@@ -14,7 +14,7 @@ export const dark = style({
 
 export const sun = style({
   position: "absolute",
-  width: "140px",
+  width: "120px",
   top: 0,
   left: 0,
   opacity: "1",
@@ -23,7 +23,7 @@ export const sun = style({
 
 export const moon = style({
   position: "absolute",
-  width: "120px",
+  width: "100px",
   bottom: 0,
   right: 0,
   opacity: "1",

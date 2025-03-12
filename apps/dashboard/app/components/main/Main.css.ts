@@ -6,5 +6,6 @@ export const main = style({
   height: "100vh",
   background: themeVars.color.background,
   transition: "background .2s ease-out",
+  overflowX: "hidden",
   overflowY: "auto",
 });

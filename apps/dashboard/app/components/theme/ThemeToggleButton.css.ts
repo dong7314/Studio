@@ -14,4 +14,10 @@ export const button = style({
     cursor: "pointer",
     backgroundColor: themeVars.color.shadow,
   },
+  "@media": {
+    "screen and (max-width: 700px)": {
+      width: "36px",
+      height: "36px",
+    },
+  },
 });

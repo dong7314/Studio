@@ -1,3 +1,5 @@
+import * as styles from "./Icon.css";
+
 import { themeVars } from "~/theme.css";
 
 export default function LightIcon() {
@@ -8,7 +10,7 @@ export default function LightIcon() {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      style={{ width: "32px", height: "32px" }}
+      className={styles.svg}
     >
       <g clipPath="url(#clip0_1818_5416)">
         <path

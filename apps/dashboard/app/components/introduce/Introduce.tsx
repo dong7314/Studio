@@ -41,9 +41,9 @@ export default function Introduce() {
           background: `linear-gradient(90deg, rgba(0,86,214,1) 0%, rgba(102,163,255,1) 50%, rgba(204,224,255,1) 100%)`,
         }}
       />
-      <div className={styles.changeIcon}>
+      {/* <div className={styles.changeIcon}>
         <ChangeIcon />
-      </div>
+      </div> */}
       <div className={styles.toggleButton}>
         <ThemeToggleButton />
       </div>
@@ -90,7 +90,7 @@ export default function Introduce() {
               </h5>
               <p className={styles.p}>
                 Ast 변환 Vscode Extension에서 Java와 C 언어를 비교하여 분석할 수
-                있는 뷰어 개발
+                있는 뷰어를 개발하였습니다.
               </p>
               <h5 className={styles.header5}>
                 What did I do<span className={styles.pointTextStyle}>.</span>
@@ -104,7 +104,7 @@ export default function Introduce() {
                   뷰어 내부에 파일 탭 추가 및 자동 저장 기능 개발
                 </li>
                 <li className={styles.li}>
-                  AI를 이용하여 사용자가 선택한 부분의 코드를 재변환하는 기능
+                  AI를 활용하여 사용자가 선택한 부분의 코드를 재변환하는 기능
                   개발
                 </li>
               </ul>
@@ -123,7 +123,8 @@ export default function Introduce() {
                 Result<span className={styles.pointTextStyle}>.</span>
               </h5>
               <p className={styles.p}>
-                세렝게티 사용자의 즐겨찾기 백엔드 기능 및 프론트엔드 기능 개발
+                세렝게티 사용자가 즐겨찾기를 등록할 수 있도록 백엔드 및
+                프론트엔드 기능을 추가하였습니다.
               </p>
               <h5 className={styles.header5}>
                 What did I do<span className={styles.pointTextStyle}>.</span>
@@ -159,7 +160,7 @@ export default function Introduce() {
                 Result<span className={styles.pointTextStyle}>.</span>
               </h5>
               <p className={styles.p}>
-                C언어 AST 분석에 따른 파일 트리 구조 뷰어 개발
+                C언어 AST 분석에 따른 파일 트리 구조 뷰어를 개발하였습니다.
               </p>
               <h5 className={styles.header5}>
                 What did I do<span className={styles.pointTextStyle}>.</span>
@@ -173,7 +174,7 @@ export default function Introduce() {
                   C 언어 AST 분석 결과로 제공되는 데이터 구조를 직렬화 기능 개발
                 </li>
                 <li className={styles.li}>
-                  Vscode와 연동하여 상호작용할 수 있는 기능 개발
+                  Vscode와 연동하여 상호작용할 수 있는 기능 추가
                 </li>
               </ul>
               <h5 className={styles.header5}>
@@ -191,14 +192,17 @@ export default function Introduce() {
                 Result<span className={styles.pointTextStyle}>.</span>
               </h5>
               <p className={styles.p}>
-                세렝게티 전용 디자인 시스템 구축 및 솔루션 적용
+                세렝게티 전용 디자인 시스템 구축과 해당 솔루션 UI/UX에
+                적용하였습니다.
               </p>
               <h5 className={styles.header5}>
                 What did I do<span className={styles.pointTextStyle}>.</span>
               </h5>
               <ul className={styles.ul}>
                 <li className={styles.li}>사용되고 있는 컴포넌트의 UX 통일</li>
-                <li className={styles.li}>확장성을 고려한 컴포넌트 개발</li>
+                <li className={styles.li}>
+                  확장성을 고려한 디자인 시스템 컴포넌트 개발
+                </li>
                 <li className={styles.li}>
                   세렝게티 디자인 시스템 document 페이지 개발
                 </li>
@@ -222,8 +226,8 @@ export default function Introduce() {
                 Result<span className={styles.pointTextStyle}>.</span>
               </h5>
               <p className={styles.p}>
-                세렝게티의 앵귤러 버전 마이그레이션 및 프론트엔드 솔루션 단점
-                개선
+                세렝게티의 앵귤러 버전 마이그레이션과 기존 프론트엔드에서 보여진
+                단점들을 개선하였습니다.
               </p>
               <h5 className={styles.header5}>
                 What did I do<span className={styles.pointTextStyle}>.</span>
@@ -236,15 +240,14 @@ export default function Introduce() {
                   새로운 버전의 세렝게티 웹 페이지 성능 향상을 위한 설계 및 개발
                 </li>
                 <li className={styles.li}>
-                  세렝게티의 초기 로딩으로 인한 접속 지연 문제를 라이브로리
+                  세렝게티의 초기 로딩으로 인한 접속 지연 문제를 라이브러리
                   모듈화 및 지연 로딩을 적용하여 개선
                 </li>
                 <li className={styles.li}>
                   라우터 모듈을 상속하여 프론트엔드 MSA화 진행
                 </li>
                 <li className={styles.li}>
-                  UI 전용 템플릿을 활용하여 로컬 개발 환경을 동일하게 구성할 수
-                  있는 기능 개발
+                  로컬 개발 환경을 동일하게 구성할 수 있는 UI 전용 템플릿 개발
                 </li>
               </ul>
               <h5 className={styles.header5}>
@@ -262,23 +265,26 @@ export default function Introduce() {
                 Result<span className={styles.pointTextStyle}>.</span>
               </h5>
               <p className={styles.p}>
-                챗봇 모델을 선택하여 기능을 제공할 수 있는 챗봇 UI 개발
+                챗봇 모델을 선택하여 채팅 기능을 제공할 수 있는 세렝게티 전용
+                챗봇 UI를 개발하였습니다.
               </p>
               <h5 className={styles.header5}>
                 What did I do<span className={styles.pointTextStyle}>.</span>
               </h5>
               <ul className={styles.ul}>
                 <li className={styles.li}>
-                  피그마를 활용하여 협업 및 기획을 작성
+                  피그마를 활용하여 협업 및 기획안 작성
                 </li>
-                <li className={styles.li}>선택한 모델에 따른 커스텀 뷰 제공</li>
+                <li className={styles.li}>
+                  선택한 모델에 따른 커스텀 뷰어 제공
+                </li>
                 <li className={styles.li}>
                   챗봇 테마 변경 기능을 제공하고, 창 전환 시 레이아웃이 깨지지
                   않도록 동적 스타일 구축
                 </li>
                 <li className={styles.li}>
-                  Pdf, Word, Excel 파일을 받아 벡터 DB에 분할 저장하고, 이를
-                  통해 문서를 조회할 수 있는 기능 구현
+                  Pdf, Word, Excel 파일을 업로드하여 벡터 DB에 분할 저장하고,
+                  이를 통해 문서를 조회할 수 있는 프론트엔드 기능 구현
                 </li>
               </ul>
               <h5 className={styles.header5}>
@@ -296,7 +302,8 @@ export default function Introduce() {
                 Result<span className={styles.pointTextStyle}>.</span>
               </h5>
               <p className={styles.p}>
-                디지털 플랫폼 정부 관리자 서비스를 위한 솔루션 보완 작업
+                디지털 플랫폼 정부 관리자 서비스를 위한 솔루션 보완 작업을
+                진행하였습니다.
               </p>
               <h5 className={styles.header5}>
                 What did I do<span className={styles.pointTextStyle}>.</span>
@@ -333,7 +340,7 @@ export default function Introduce() {
               </h5>
               <p className={styles.p}>
                 세렝게티 솔루션에 등록된 쿠버네티스의 인스턴스 사용량 로그를
-                활용한 빌링 시스템 구축
+                활용하여 빌링 시스템 구축하였습니다.
               </p>
               <h5 className={styles.header5}>
                 What did I do<span className={styles.pointTextStyle}>.</span>
@@ -371,9 +378,20 @@ export default function Introduce() {
         </h2>
         <div className={styles.row}>
           <div className={styles.left}>
-            <h3 className={styles.header3}>
+            <h3 className={composeStyles(styles.header3, styles.sideProject)}>
               사이드 프로젝트<span className={styles.pointTextStyle}>.</span>
             </h3>
+            <div className={styles.imageContainer}>
+              <div className={styles.imageBox}>
+                <img className={styles.img} src="/public/dpost/dpost1.png" />
+              </div>
+              <div className={styles.imageBox}>
+                <img className={styles.img} src="/public/dpost/dpost2.png" />
+              </div>
+              <div className={styles.imageBox}>
+                <img className={styles.img} src="/public/dpost/dpost3.png" />
+              </div>
+            </div>
           </div>
           <div className={styles.right}>
             <div className={styles.project}>

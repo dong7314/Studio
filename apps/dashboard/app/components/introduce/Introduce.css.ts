@@ -15,6 +15,17 @@ export const introSection = style({
   width: "880px",
   paddingInline: "25px",
   boxSizing: "border-box",
+  "@media": {
+    "screen and (max-width: 1020px)": {
+      width: "720px",
+    },
+    "screen and (max-width: 830px)": {
+      width: "600px",
+    },
+    "screen and (max-width: 670px)": {
+      width: "95%",
+    },
+  },
 });
 
 export const mainSection = style({
@@ -28,12 +39,28 @@ export const mainSection = style({
       marginBottom: "96px",
     },
   },
+  "@media": {
+    "screen and (max-width: 1020px)": {
+      width: "700px",
+    },
+    "screen and (max-width: 830px)": {
+      width: "580px",
+    },
+    "screen and (max-width: 670px)": {
+      width: "87%",
+    },
+  },
 });
 
 export const changeIcon = style({
   position: "fixed",
-  top: "-120px",
-  left: "-120px",
+  top: "-140px",
+  left: "-140px",
+  "@media": {
+    "screen and (max-width: 1340px)": {
+      display: "none",
+    },
+  },
 });
 
 export const scroll = style({
@@ -42,18 +69,37 @@ export const scroll = style({
   top: "0",
   height: "12px",
   transition: "background 0.15s ease-out",
+  "@media": {
+    "screen and (max-width: 700px)": {
+      height: "8px",
+    },
+  },
 });
 
 export const seperate = style({
   width: "820px",
   height: "1px",
   backgroundColor: "#F2F2F2",
+  "@media": {
+    "screen and (max-width: 1020px)": {
+      width: "640px",
+    },
+    "screen and (max-width: 830px)": {
+      width: "550px",
+    },
+  },
 });
 
 export const toggleButton = style({
   position: "fixed",
   right: "42px",
   top: "36px",
+  "@media": {
+    "screen and (max-width: 700px)": {
+      right: "30px",
+      top: "24px",
+    },
+  },
 });
 
 export const textStyle = style({
@@ -77,6 +123,14 @@ export const header = style([
   {
     fontSize: "72px",
     marginBottom: "64px",
+    "@media": {
+      "screen and (max-width: 1020px)": {
+        fontSize: "56px",
+      },
+      "screen and (max-width: 830px)": {
+        fontSize: "42px",
+      },
+    },
   },
 ]);
 
@@ -86,6 +140,15 @@ export const header2 = style([
     position: "relative",
     fontSize: "48px",
     margin: "64px 0 32px 0",
+    "@media": {
+      "screen and (max-width: 1020px)": {
+        fontSize: "36px",
+      },
+      "screen and (max-width: 830px)": {
+        margin: "48px 0 24px 0",
+        fontSize: "32px",
+      },
+    },
   },
 ]);
 
@@ -94,6 +157,11 @@ export const header3 = style([
   {
     fontSize: "32px",
     margin: "0 0 16px",
+    "@media": {
+      "screen and (max-width: 1020px)": {
+        fontSize: "24px",
+      },
+    },
   },
 ]);
 
@@ -104,6 +172,11 @@ export const header5 = style([
   {
     fontSize: "21px",
     margin: "0 0 8px",
+    "@media": {
+      "screen and (max-width: 1020px)": {
+        fontSize: "18px",
+      },
+    },
   },
 ]);
 
@@ -114,6 +187,14 @@ export const headerDescription = style([
     fontWeight: 500,
     lineHeight: "145%",
     marginBlock: "20px",
+    "@media": {
+      "screen and (max-width: 1020px)": {
+        fontSize: "24px",
+      },
+      "screen and (max-width: 830px)": {
+        fontSize: "21px",
+      },
+    },
   },
 ]);
 
@@ -136,6 +217,11 @@ export const sub = style([
     display: "block",
     fontSize: "16px",
     marginBottom: "4px",
+    "@media": {
+      "screen and (max-width: 1020px)": {
+        fontSize: "14px",
+      },
+    },
   },
 ]);
 
@@ -162,6 +248,11 @@ export const p = style([
     fontSize: "17.5px",
     margin: "0 0 16px",
     lineHeight: "130%",
+    "@media": {
+      "screen and (max-width: 1020px)": {
+        fontSize: "15.5px",
+      },
+    },
   },
 ]);
 
@@ -183,12 +274,32 @@ export const li = style([
       content: "• ",
       color: themeVars.color.point,
     },
+    "@media": {
+      "screen and (max-width: 1020px)": {
+        fontSize: "15.5px",
+      },
+    },
   },
 ]);
+
+export const sideProject = style({
+  "@media": {
+    "screen and (max-width: 830px)": {
+      marginBottom: "36px",
+    },
+  },
+});
 
 export const row = style({
   display: "flex",
   paddingBlock: "48px",
+  "@media": {
+    "screen and (max-width: 830px)": {
+      width: "100%",
+      paddingBlock: "30px",
+      flexDirection: "column",
+    },
+  },
 });
 
 export const left = style({
@@ -197,10 +308,52 @@ export const left = style({
   width: "300px",
   paddingRight: "16px",
   boxSizing: "border-box",
+  "@media": {
+    "screen and (max-width: 830px)": {
+      width: "100%",
+    },
+  },
 });
 
 export const right = style({
   display: "flex",
   flexDirection: "column",
   width: "calc(100% - 300px)",
+  "@media": {
+    "screen and (max-width: 830px)": {
+      width: "100%",
+    },
+  },
+});
+
+export const imageContainer = style({
+  width: "100%",
+  paddingTop: "24px",
+  "@media": {
+    "screen and (max-width: 1300px)": {
+      display: "none",
+    },
+  },
+});
+
+export const imageBox = style({
+  position: "relative",
+  marginBottom: "24px",
+  minHeight: "142.5px",
+});
+
+export const img = style({
+  width: "90%",
+  height: "auto",
+  border: "1px solid #e6e6e6",
+  borderRadius: "6px",
+  transition: "all .15s ease",
+  ":hover": {
+    position: "absolute",
+    transform: "scale(2.5)",
+    cursor: "pointer",
+    zIndex: "1",
+    border: "1px solid #F2F2F2",
+    boxShadow: "0 4px 20px 0 rgba(0, 0, 0, 0.08)",
+  },
 });
