@@ -383,13 +383,13 @@ export default function Introduce() {
             </h3>
             <div className={styles.imageContainer}>
               <div className={styles.imageBox}>
-                <img className={styles.img} src="/public/dpost/dpost1.png" />
+                <img className={styles.img} src="/dpost/dpost1.png" />
               </div>
               <div className={styles.imageBox}>
-                <img className={styles.img} src="/public/dpost/dpost2.png" />
+                <img className={styles.img} src="/dpost/dpost2.png" />
               </div>
               <div className={styles.imageBox}>
-                <img className={styles.img} src="/public/dpost/dpost3.png" />
+                <img className={styles.img} src="/dpost/dpost3.png" />
               </div>
             </div>
           </div>
