@@ -467,6 +467,81 @@ export default function Introduce() {
                 / 회원가입, 서치
               </p>
             </div>
+            <div className={styles.project}>
+              <h4 className={styles.header4}>
+                개인 서버 운영
+                <span className={styles.pointTextStyle}>.</span>
+              </h4>
+              <span className={styles.time}>2024.12 - 현재</span>
+              <h5 className={styles.header5}>
+                Description<span className={styles.pointTextStyle}>.</span>
+              </h5>
+              <p className={styles.p}>
+                개발에 필요한 서버 및 인프라를 미니 pc를 활용하여 개인적으로 운영하고 있습니다.
+              </p>
+              <h5 className={styles.header5}>
+                Implemented Feature
+                <span className={styles.pointTextStyle}>.</span>
+              </h5>
+              <ul className={styles.ul}>
+                <li className={styles.li}>K3s를 통해 pod, service, ingress, ssl 운영</li>
+                <li className={styles.li}>
+                  <span className={styles.liSpan}>개발 일지, 학습 내용 등을 작성하기 위한 사이트</span><br/>
+                  블로그 :{" "}
+                  <a
+                    className={styles.a}
+                    href="https://dpost.site"
+                    target="_blank"
+                  >
+                    https://dpost.site
+                  </a>
+                </li>
+                <li className={styles.li}>
+                  <span className={styles.liSpan}>gemini를 활용하여 ai가 비트코인을 자동매매하는 사이트</span><br/>
+                  비트코인 자동매매 :{" "}
+                  <a
+                    className={styles.a}
+                    href="https://bitcoin.ldy-studio.com"
+                    target="_blank"
+                  >
+                    https://bitcoin.ldy-studio.com
+                  </a>
+                </li>
+                <li className={styles.li}>
+                  <span className={styles.liSpan}>Ollama를 통해 오픈소스 LLM을 로컬 PC에서 돌리며 Open WebUI를 통해 ChatGPT 형식으로 사용할 수 있는 사이트</span><br/>
+                  AI GPT :{" "}
+                  <a
+                    className={styles.a}
+                    href="https://gpt.ldy-studio.com"
+                    target="_blank"
+                  >
+                    https://gpt.ldy-studio.com
+                  </a>
+                </li>
+                <li className={styles.li}>
+                  <span className={styles.liSpan}>S3 분산 스토리지 데이터 저장소(이미지, 파일)</span><br/>
+                  MinIO :{" "}
+                  <a
+                    className={styles.a}
+                    href="https://minio.ldy-studio.com"
+                    target="_blank"
+                  >
+                    https://minio.ldy-studio.com
+                  </a>
+                </li>
+                <li className={styles.li}>
+                  <span className={styles.liSpan}>프라이빗 도커 이미지 저장소</span><br/>
+                  Harbor :{" "}
+                  <a
+                    className={styles.a}
+                    href="https://harbor.ldy-studio.com"
+                    target="_blank"
+                  >
+                    https://harbor.ldy-studio.com
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

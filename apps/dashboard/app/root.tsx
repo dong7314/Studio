@@ -5,7 +5,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/node";
+import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import { useThemeStore } from "./store/themeStore";
 import Main from "./components/main/Main";
 
@@ -26,6 +26,7 @@ export const links: LinksFunction = () => [
     href: "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css",
   },
 ];
+
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const { themeClass } = useThemeStore();

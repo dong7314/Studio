@@ -282,6 +282,13 @@ export const li = style([
   },
 ]);
 
+export const liSpan = style([
+  textStyle, {
+    display: "inline-block",
+    marginBottom: "6px"
+  }
+])
+
 export const sideProject = style({
   "@media": {
     "screen and (max-width: 830px)": {
@@ -330,7 +337,7 @@ export const imageContainer = style({
   width: "100%",
   paddingTop: "24px",
   "@media": {
-    "screen and (max-width: 1300px)": {
+    "screen and (max-width: 1240px)": {
       display: "none",
     },
   },
@@ -350,7 +357,7 @@ export const img = style({
   transition: "all .15s ease",
   ":hover": {
     position: "absolute",
-    transform: "scale(2.5)",
+    transform: "scale(2.25)",
     cursor: "pointer",
     zIndex: "1",
     border: "1px solid #F2F2F2",
