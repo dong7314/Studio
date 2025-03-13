@@ -508,7 +508,8 @@ export default function Introduce() {
                   </a>
                 </li>
                 <li className={styles.li}>
-                  <span className={styles.liSpan}>Ollama를 통해 오픈소스 LLM을 로컬 PC에서 돌리며 Open WebUI를 통해 ChatGPT 형식으로 사용할 수 있는 사이트</span><br/>
+                  <span>Ollama를 사용하여 오픈소스 LLM을 로컬 PC에서 돌리며</span><br/>
+                  <span className={styles.liSpan}>Open WebUI와 연결해 ChatGPT 형식으로 사용할 수 있는 사이트</span><br/>
                   AI GPT :{" "}
                   <a
                     className={styles.a}
@@ -583,7 +584,7 @@ export default function Introduce() {
             풀스택 개발자 양성과정 교육
             <span className={styles.pointTextStyle}>.</span>
           </h4>
-          <span className={styles.sub}>코리아 아카데미 (주)</span>
+          <span className={styles.sub}>코리아 IT 아카데미 (주)</span>
           <span className={styles.time}>2022.03 - 2022.07</span>
           <p className={composeStyles(styles.p, styles.cuttingMargin)}>
             개발자가 되기 위해 국비 교육으로 풀스택 개발자 양성과정을
@@ -621,7 +622,7 @@ export default function Introduce() {
         <div className={styles.seperate} />
         <div className={styles.other}>
           <h4 className={styles.header4}>
-            CKA (Ceritfied Kubernetes Administrator)
+            CKA (Certified Kubernetes Administrator)
             <span className={styles.pointTextStyle}>.</span>
           </h4>
           <span className={styles.sub}>Cloud Native Computing Foundation</span>
